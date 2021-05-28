@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:background="@drawable/bg" >
+    <Button 
+        android:id="@+id/music_p"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:text="播放"
+        android:textSize="20sp"
+        android:textColor="@color/font_c"
+        android:background="#0000"
+        android:layout_margin="50dp"/>
+    <Button 
+        android:id="@+id/music_s"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:text="停止播放"
+        android:textSize="20sp"
+        android:textColor="@color/font_c"
+        android:background="#0000"
+        android:layout_margin="20dp"/>
+</LinearLayout>

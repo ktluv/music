@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="@drawable/bg">
+    
+    <ImageView 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/logo"
+        android:layout_margin="20dp"/>
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="17dp">
+	    <EditText
+	        android:id="@+id/usrname"
+	        android:layout_width="match_parent"
+	        android:layout_height="47dp"
+	        android:background="@drawable/border"
+	        android:padding="10dp"
+	        android:layout_margin="5dp"
+	        android:hint="QQ号/手机号/邮箱"/>
+	    
+	   	<EditText
+	        android:id="@+id/usrpwd"
+	        android:layout_width="match_parent"
+	        android:layout_height="47sp"
+	        android:background="@drawable/border"
+	        android:password="true"
+	        android:padding="10dp"
+	        android:layout_margin="5dp"
+	        android:hint="密码"/>
+		<Button 
+		    android:id="@+id/login"
+		    android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:textColor="@color/font_c"
+	        android:layout_margin="2dp"
+	        android:text="登录"/>
+		<Button 
+		    android:id="@+id/sign"
+		    android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:textColor="@color/font_c"
+	        android:layout_margin="2dp"
+	        android:text="注册"/>
+	</LinearLayout>
+     
+
+</LinearLayout>
